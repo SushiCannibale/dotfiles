@@ -1,0 +1,109 @@
+@import "frappe.css";
+
+/* Remove default */
+button {
+    all:unset;
+}
+
+
+
+* {
+    font-family: JetBrainsMono Nerd Font;
+    min-height: 0;
+}
+
+#waybar {
+    background-color: transparent;
+    color: @text;
+}
+
+#custom-launcher,
+#workspaces,
+#tray,
+#backlight,
+#clock,
+#backlight,
+#pulseaudio,
+#bluetooth,
+#network,
+#battery {
+    border-radius: 1rem;
+    background-color: @surface0;
+    padding: 0.4 1rem;
+    margin: 8px 0 0 8px;
+}
+
+
+
+/* Left modules */
+#custom-launcher {
+    padding: 0 1.4rem 0 1rem;
+    color: @blue;
+}
+
+#workspaces {
+    padding: 0 0.8rem 0 0.4rem;
+}
+#workspaces button {
+    padding: 0.4rem 1rem;
+    color: @lavender;
+}
+#workspaces button.active {
+    color: @sky;
+}
+#workspaces button:hover {
+    color: @sapphire;
+}
+
+#window
+
+#tray {
+    background-color: @surface0;
+}
+
+/* Center modules */
+#clock {
+    color: @blue;
+}
+
+/* Right modules */
+#backlight {
+    color: @yellow;
+}
+
+#pulseaudio {
+    color: @maroon;
+}
+
+#bluetooth {
+    color: @blue;
+}
+
+#network { }
+
+#battery {
+    color: @green;
+    margin-right: 8px;
+}
+
+#battery.charging {
+    color: @green;
+}
+#battery.warning {
+    color: @yellow;
+}
+#battery.critical {
+    color: @red;
+}
+#battery.warning:not(.charging) {
+    color: @red;
+}
+
+/* Other */
+
+/* Calendar */
+tooltip {
+    background-color: @surface1;
+    color: @lavander;
+    text-shadow: none
+}

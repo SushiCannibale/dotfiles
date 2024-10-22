@@ -1,0 +1,148 @@
+{
+    "layer": "top", 
+    "position": "top",
+
+    "modules-left": [ 
+        "custom/launcher", 
+        "hyprland/workspaces",
+        // "hyprland/window",
+        "tray"
+   ],
+    "modules-center": [ 
+        "clock"
+    ],
+    "modules-right": [
+        "backlight",
+        "pulseaudio",
+        "bluetooth",
+        "network",
+        "battery"
+        //"custom/notification"
+        // "cpu"
+        // "memory",
+        // "disk",
+    ],
+
+    /* Modules */
+    "clock": {
+        "locale": "fr_FR.utf8",
+        "format": " {:%H:%M}",
+        "format-alt": " {:%A, %d %B %Y}",
+        "tooltip-format": "<tt>{calendar}</tt>",
+        "tooltip": true,
+        "calendar": {
+            "mode"          : "month",
+            "mode-mon-col"  : 3,
+            "weeks-pos"     : "right",
+            "on-scroll"     : 1,
+            "format": {
+                "months":     "<span color='#8caaee'><b>{}</b></span>", // blue
+                "days":       "<span color='#c6d0f5'>{}</span>", // text
+                "weeks":      "<span color='#ca9ee6'>{}</span>", // mauve
+                "weekdays":   "<span color='#ca9ee6'>{}</span>", // mauve
+                "today":      "<span color='#e78284'><b>{}</b></span>" // red
+            }
+        },
+        "actions":  {
+            "on-click-right": "mode"
+        }
+    },
+    
+    "custom/launcher": {
+        "format": "",
+        "tooltip": false,
+        "on-click": "fuzzel"
+    },
+    
+    "hyprland/workspaces": {
+        "active-only": false,
+        "format": "{icon}",
+        "format-icons": {
+            "special": "",
+            "default": "",
+            "active": "",
+            "urgent": ""
+        },
+        "show-special": true,
+        "persistent-workspaces": {
+            "*": 3
+        }
+    },
+    // "hyprland/window": {
+    //     "format": "{}",
+    //     "rewrite": {
+    //         "(.*) — Mozilla Firefox": " $1",
+    //         "(.*) - kitty": "$1"
+    //     },
+    //     "separate-outputs": true
+    // },
+
+    "tray": {
+        "icon-size": 21,
+        "spacing": 10,
+        "format-disabled": ""
+    },
+
+    "backlight": {
+        "tooltip": false,
+        "device": "intel_backlight",
+        "format": "{icon} {percent}%",
+        "format-icons": [ "", "󰖨" ],
+        "scroll-step": 1.0
+    },
+
+    // TODO: open pavucontrol
+    "pulseaudio": {
+        "tooltip": false,
+        "format": "{icon} {volume}%",
+        "format-muted": "󰖁 {volume}%",
+        "format-bluetooth": "󰦢 {volume}%",
+        "format-source": " {volume}%",
+        "format-source-muted": "󰍭 {volume}%",
+        "format-icons": {
+            "headphone": "󰋋",
+            "speaker": "󰓃",
+            "phone": "",
+            "default": ["󰖀", "󰕾"]
+        },    
+        "scroll-step": 1.0
+    },
+
+    "bluetooth": {
+        "tooltip": false,
+        "format": " {status}",
+        "format-disabled": ""
+    },
+
+    // TODO: open nm-applet
+    "network": {
+        "tooltip": false,
+        "interface": "wlan0",
+        "format": "{ifname}", // lowest priority
+        "format-wifi": "{icon} {essid}",
+        "format-ethernet": "󰈁 {ipaddr}",
+        "format-disconnected": "",
+        "format-icons": [ "󰤯", "󰤟", "󰤢", "󰤥", "󰤨" ]
+    },
+
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "format-charging": "{icon} {capacity}%",
+        "format-critical": "{icon} {capacity}%",
+        "format-icons": { 
+            "charging": [ "󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅" ],
+            "critical": [ "󱃍" ],
+            "default": [ "󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰁹" ]
+        },
+        "states": {
+            "warning": 20,
+            "critical": 5
+        }
+    },
+
+    "custom/notification": {
+        "exec": "/home/sushi/.config/waybar/scripts/notification.sh",
+        "on-click": "dunstctl set-paused toggle",
+        "restart-interval": 1
+    }
+}
