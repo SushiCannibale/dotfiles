@@ -2,14 +2,13 @@
 
 /* Remove default */
 button {
-    all:unset;
+	all: unset;
 }
-
-
 
 * {
     font-family: JetBrainsMono Nerd Font;
-    min-height: 0;
+    border-radius: 0;
+    margin: 0;
 }
 
 #waybar {
@@ -19,7 +18,7 @@ button {
 
 #custom-launcher,
 #workspaces,
-#tray,
+#window,
 #backlight,
 #clock,
 #backlight,
@@ -27,8 +26,9 @@ button {
 #bluetooth,
 #network,
 #battery {
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     background-color: @surface0;
+    font-weight: bold;
     padding: 0.4 1rem;
     margin: 8px 0 0 8px;
 }
@@ -38,31 +38,41 @@ button {
 /* Left modules */
 #custom-launcher {
     padding: 0 1.4rem 0 1rem;
-    color: @blue;
+    font-size: 20px;
+    color: @teal;
 }
 
 #workspaces {
     padding: 0 0.8rem 0 0.4rem;
 }
 #workspaces button {
+	font-size: 20px;
     padding: 0.4rem 1rem;
-    color: @lavender;
+    color: @overlay0;
 }
 #workspaces button.active {
-    color: @sky;
+    color: @mauve;
 }
 #workspaces button:hover {
-    color: @sapphire;
+    color: @pink;
+}
+#workspaces button.special {
+    color: @yellow;
 }
 
-#window
-
-#tray {
+#window {
     background-color: @surface0;
 }
+window#waybar.empty #window {
+    background-color: transparent;
+}
+/* window#waybar.kitty { */
+/* 	color: @green; */
+/* } */
 
 /* Center modules */
 #clock {
+    background-color: @base;
     color: @blue;
 }
 

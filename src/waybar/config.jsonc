@@ -5,8 +5,8 @@
     "modules-left": [ 
         "custom/launcher", 
         "hyprland/workspaces",
-        // "hyprland/window",
-        "tray"
+        "hyprland/window"
+        // "tray"
    ],
     "modules-center": [ 
         "clock"
@@ -58,30 +58,42 @@
         "active-only": false,
         "format": "{icon}",
         "format-icons": {
-            "special": "",
-            "default": "",
-            "active": "",
+        	"1": "󰨞",
+        	"2": "󰈹",
+        	"3": "󰈙",
+        	"4": "",
+        	"5": "",
+			"6": "",
+            "special": "",
+            "default": "",
             "urgent": ""
         },
         "show-special": true,
         "persistent-workspaces": {
-            "*": 3
-        }
+            "*": 6
+        },
     },
-    // "hyprland/window": {
-    //     "format": "{}",
-    //     "rewrite": {
-    //         "(.*) — Mozilla Firefox": " $1",
-    //         "(.*) - kitty": "$1"
-    //     },
-    //     "separate-outputs": true
-    // },
-
-    "tray": {
-        "icon-size": 21,
-        "spacing": 10,
-        "format-disabled": ""
+    "hyprland/window": {
+        "format": "{title}",
+        "rewrite": {
+            "(.*) — Mozilla Firefox": "󰈹 $1",
+            "(.*) - Discord": "  $1",
+            "micro (.*)": "󰷈 $1",
+            "(.*) - (.*) - VSCodium": "󰨞 $2:  $1",
+			"(.*) - mpv": " $1",
+			// "imv - (.*)": "󰋩 $1",
+            // "~": " ",
+            // "~/Downloads(.*)": "󰇚 $1",
+            // "~/Documents(.*)": " $1"
+        },
+        "separate-outputs": true
     },
+// 
+//     "tray": {
+//         "icon-size": 21,
+//         "spacing": 10,
+//         "format-disabled": ""
+//     },
 
     "backlight": {
         "tooltip": false,
@@ -140,9 +152,9 @@
         }
     },
 
-    "custom/notification": {
-        "exec": "/home/sushi/.config/waybar/scripts/notification.sh",
-        "on-click": "dunstctl set-paused toggle",
-        "restart-interval": 1
-    }
+    // "custom/notification": {
+    //     "exec": "/home/sushi/.config/waybar/scripts/notification.sh",
+    //     "on-click": "dunstctl set-paused toggle",
+    //     "restart-interval": 1
+    // }
 }
