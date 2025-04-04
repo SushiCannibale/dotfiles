@@ -1,4 +1,5 @@
-**/micro/backups
-**/micro/buffers/*
-**/kitty/*.bak
-**/btop/btop.log
+backups
+buffers
+*.bak
+*.log
+.vscode
