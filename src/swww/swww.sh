@@ -1,1 +1,1 @@
-swww img ~/Pictures/Wallpapers/cat-leaves.png
+swww img ~/Pictures/Wallpapers/windows-error.jpg

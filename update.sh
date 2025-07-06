@@ -1,7 +1,7 @@
 #!/bin/sh
 
 source="$HOME/.config"
-dest="test"
+dest="src"
 
 [ ! -d "$dest" ] && mkdir "$dest"
 
