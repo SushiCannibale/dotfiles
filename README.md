@@ -15,6 +15,7 @@
     <li>Theme: <a href="https://catppuccin.com/palette/">catppuccin frappé</a></li>
     <li>Editor: <a href="https://micro-editor.github.io/">micro</a></li>
     <li>Notifications daemon: <a href="https://github.com/dunst-project/dunst">dunst</a></li>
+    <li>Shell: <a href="https://www.zsh.org/">zsh</a></li>
     <li>Terminal: <a href="https://sw.kovidgoyal.net/kitty/">kitty + kitten</a></li>
     <li>Image viewer: <a href="https://archlinux.org/packages/extra/x86_64/imv/">imv</a></li>
     <li>File explorer: <a href="https://github.com/linuxmint/nemo">nemo</a></li>
