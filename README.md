@@ -5,7 +5,7 @@
 
 ## 🖼️ Gallery 🖼️
 
-<img src=".github/windows.png">
+<img src=".github/wallpaper.png">
 
 ## 🗃️ Overview 🗃️
 
@@ -17,4 +17,6 @@
     <li>Notifications daemon: <a href="https://github.com/dunst-project/dunst">dunst</a></li>
     <li>Terminal: <a href="https://sw.kovidgoyal.net/kitty/">kitty + kitten</a></li>
     <li>Image viewer: <a href="https://archlinux.org/packages/extra/x86_64/imv/">imv</a></li>
+    <li>File explorer: <a href="https://github.com/linuxmint/nemo">nemo</a></li>
+    <li>Fetch <a href="https://github.com/linuxmint/nemo">neofetch</a></li>
 </ul>
