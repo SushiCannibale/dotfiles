@@ -6,6 +6,7 @@
 ## 🖼️ Gallery 🖼️
 
 <img src=".github/wallpaper.png">
+<img src=".github/screenshot1.png">
 
 ## 🗃️ Overview 🗃️
 
