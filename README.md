@@ -12,6 +12,7 @@
 
 <ul style="list-style-type:circle;">
     <li>Compositor: <a href="https://hyprland.org/">hyprland</a></li>
+    <li>Packet manager: <a href="https://github.com/Morganamilo/paru">paru</a></li>
     <li>Bar: <a href="https://github.com/Alexays/Waybar">waybar</a></li>
     <li>Theme: <a href="https://catppuccin.com/palette/">catppuccin frappé</a></li>
     <li>Editor: <a href="https://micro-editor.github.io/">micro</a></li>

@@ -39,3 +39,6 @@ cp -r "$source"/waybar "$dest"/
 
 ### STARSHIP ###
 cp -r "$source"/starship.toml "$dest"/
+
+### ZSHRC ###
+cp -r "$HOME/.zshrc" "$dest"/
