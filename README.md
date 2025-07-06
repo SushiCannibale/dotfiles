@@ -20,3 +20,43 @@
     <li>File explorer: <a href="https://github.com/linuxmint/nemo">nemo</a></li>
     <li>Fetch <a href="https://github.com/linuxmint/nemo">neofetch</a></li>
 </ul>
+
+### Quality of life
+<ul style="list-style-type:circle;">
+    <li>smart `cd`: <a href="https://github.com/ajeetdsouza/zoxide">zoxide</a></li>
+    <li>colorful `ls`: <a href="https://github.com/eza-community/eza">eza</a></li>
+    <li>fuzzy finder: <a href="https://github.com/junegunn/fzf">fzf</a></li>
+</ul>
+
+
+| Alias           | Command                                  |
+|-----------------|------------------------------------------|
+| icat            | kitten icat                              |
+| c               | clear                                    |
+| cd              | z                                        |
+| ls              | eza --icons --group-directories-first -1 |
+| la              | ls -a                                    |
+| ll              | la --no-user --long                      |
+| tree            | eza --icons --tree eza --icons --group-directories-first -1 |
+| ssh             | kitten ssh                               |
+| gb              | git branch                               |
+| gs              | git status                               |
+| gw              | git switch                               |
+| gd              | git diff                                 |
+| ga              | git add                                  |
+| gm              | git commit -m                            |
+| gp              | git push                                 |
+| gl              | git log                                  |
+| gr              | git restore                              |
+
+
+### Bindings
+
+| Bind            | Command                                  |
+|-----------------|------------------------------------------|
+| CTRL+SPACE      | accept autosuggets                       |
+| CTRL+->        | move one word forwards                   |
+| CTRL+<-        | move one word backwards                  |
+| SUPPR           | forward deletes a character              |
+| CTRL+SUPPR      | forward deletes a word                   |
+| CTRL+BACKSPACE  | backward deletes a word                  |
