@@ -19,7 +19,7 @@ PS1='[\u@\h \W]\$ '
 # Load Starship config
 eval "$(/usr/bin/starship init zsh --print-full-init)"
 
-### | Aliases | ###
+alias diff='kitten diff'
 alias icat='kitten icat'
 alias c='clear'
 alias cd='z'
@@ -28,7 +28,7 @@ alias la='ls -a'
 alias ll='la --no-user --long'
 alias tree='eza --icons --tree --group-directories-first'
 alias ssh='kitten ssh'
-# git aliases # 
+
 alias gb='git branch'
 alias gs='git status'
 alias gw='git switch'
@@ -66,7 +66,7 @@ export "MICRO_TRUECOLOR=1"
 export PGDATA="$HOME/postgres_data"
 export PGHOST="/tmp"
 export PGPORT="5432"
-alias vim='sl'
+alias vim='hyprlock'
 
 # bun completions
 [ -s "/home/sushi/.bun/_bun" ] && source "/home/sushi/.bun/_bun"
