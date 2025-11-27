@@ -1,4 +1,5 @@
 palette = "catppuccin_frappe"
+scan_timeout = 40
 
 [directory]
 format = "[ ](bold text)[ $path ]($style)"

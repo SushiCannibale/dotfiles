@@ -50,13 +50,16 @@ button {
     padding: 0.4rem 1rem;
     color: @overlay0;
 }
-#workspaces button.active {
+#workspaces button:hover {
+    color: @overlay1;
+}
+#workspaces button.visible {
     color: @mauve;
 }
-#workspaces button:hover {
+#workspaces button.visible:hover {
     color: @pink;
 }
-#workspaces button.special {
+#workspaces button.special.visible {
     color: @yellow;
 }
 

@@ -62,15 +62,14 @@
         	"2": "󰈹",
         	"3": "󰈙",
         	"4": "",
-        	"5": "",
-			"6": "",
+        	"5": "",
             "special": "",
-            "default": "",
+            "default": "",
             "urgent": ""
         },
         "show-special": true,
         "persistent-workspaces": {
-            "*": 6
+            "*": 5
         },
     },
     "hyprland/window": {
