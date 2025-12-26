@@ -1,0 +1,16 @@
+{
+	"battery": {
+        "format": "{icon} {capacity}%",
+        "format-charging": "{icon} {capacity}%",
+        "format-critical": "{icon} {capacity}%",
+        "format-icons": { 
+            "charging": [ "󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅" ],
+            "critical": [ "󱃍" ],
+            "default": [ "󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰁹" ]
+        },
+        "states": {
+            "warning": 20,
+            "critical": 5
+        }
+    }
+}
