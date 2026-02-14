@@ -1,3 +1,7 @@
+> [!TIP]
+> If you want to save your configuration to github using
+> the `update.sh` script, don't forget to install `rsync`!
+
 <h1 align="center">
     <img src=".github/arch.png" width=64>
     <br>- Arch btw -</br>
@@ -14,7 +18,7 @@
     <li>Compositor: <a href="https://hyprland.org/">hyprland</a></li>
     <li>Packet manager: <a href="https://github.com/Morganamilo/paru">paru</a></li>
     <li>Bar: <a href="https://github.com/Alexays/Waybar">waybar</a></li>
-    <li>Theme: <a href="https://catppuccin.com/palette/">catppuccin frappé</a></li>
+    <li>Theme: <a href="https://catppuccin.com/palette/">catppuccin frappe</a></li>
     <li>Editor: <a href="https://micro-editor.github.io/">micro</a></li>
     <li>Notifications daemon: <a href="https://github.com/dunst-project/dunst">dunst</a></li>
     <li>Shell: <a href="https://www.zsh.org/">zsh</a></li>
@@ -22,6 +26,7 @@
     <li>Image viewer: <a href="https://archlinux.org/packages/extra/x86_64/imv/">imv</a></li>
     <li>File explorer: <a href="https://github.com/linuxmint/nemo">nemo</a></li>
     <li>Fetch <a href="https://github.com/linuxmint/nemo">neofetch</a></li>
+    <li>Fuzzel</li>
 </ul>
 
 ### Quality of life
@@ -58,8 +63,8 @@
 | Bind            | Command                                  |
 |-----------------|------------------------------------------|
 | CTRL+SPACE      | accept autosuggets                       |
-| CTRL+->        | move one word forwards                   |
-| CTRL+<-        | move one word backwards                  |
+| CTRL+->         | move one word forwards                   |
+| CTRL+<-         | move one word backwards                  |
 | SUPPR           | forward deletes a character              |
 | CTRL+SUPPR      | forward deletes a word                   |
 | CTRL+BACKSPACE  | backward deletes a word                  |
