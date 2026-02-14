@@ -1,7 +1,5 @@
 .config/btop/themes/
 .config/btop/btop.conf
-.config/Code/User/settings.json
-.config/Code/User/keybindings.json
 .config/discord/settings.json
 .config/micro/colorschemes
 .config/micro/settings.json
