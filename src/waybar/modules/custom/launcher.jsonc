@@ -1,7 +1,0 @@
-{
-	"custom/launcher": {
-        "format": "",
-        "tooltip": false,
-        "on-click": "fuzzel"
-    }
-}

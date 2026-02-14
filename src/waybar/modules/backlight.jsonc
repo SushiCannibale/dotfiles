@@ -1,9 +1,0 @@
-{
-	"backlight": {
-	    "tooltip": false,
-	    "device": "intel_backlight",
-	    "format": "{icon} {percent}%",
-	    "format-icons": [ "", "󰖨" ],
-	    "scroll-step": 1.0
-	}
-}
