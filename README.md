@@ -17,6 +17,7 @@
 
 <ul style="list-style-type:circle;">
     <li>Compositor: <a href="https://hyprland.org/">hyprland</a></li>
+    <li>Dmenu: Fuzzel</li>
     <li>Packet manager: <a href="https://github.com/Morganamilo/paru">paru</a></li>
     <li>Bar: <a href="https://github.com/Alexays/Waybar">waybar</a></li>
     <li>Theme: <a href="https://catppuccin.com/palette/">catppuccin frappe</a></li>
@@ -27,7 +28,6 @@
     <li>Image viewer: <a href="https://archlinux.org/packages/extra/x86_64/imv/">imv</a></li>
     <li>File explorer: <a href="https://github.com/linuxmint/nemo">nemo</a></li>
     <li>Fetch <a href="https://github.com/linuxmint/nemo">neofetch</a></li>
-    <li>Fuzzel</li>
 </ul>
 
 ### Quality of life
