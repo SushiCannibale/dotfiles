@@ -1,5 +1,4 @@
 palette = "catppuccin_frappe"
-scan_timeout = 40
 
 [directory]
 format = "[ ](bold text)[ $path ]($style)"
@@ -43,3 +42,4 @@ surface0 = "#414559"
 base = "#303446"
 mantle = "#292c3c"
 crust = "#232634"
+

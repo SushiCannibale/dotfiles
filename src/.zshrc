@@ -17,7 +17,8 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 # Load Starship config
-eval "$(/usr/bin/starship init zsh --print-full-init)"
+# export STARSHIP_CACHE=~/.starship/cache
+eval "$(/usr/bin/starship init zsh)"
 
 alias diff='kitten diff'
 alias icat='kitten icat'
@@ -34,7 +35,7 @@ alias gs='git status'
 alias gw='git switch'
 alias gd='git diff'
 alias ga='git add'
-alias gm='git commit -m'
+alias gm='git commit --signoff -m'
 alias gp='git push'
 alias gl='git log'
 alias gr='git restore'
