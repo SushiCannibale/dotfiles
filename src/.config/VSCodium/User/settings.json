@@ -1,0 +1,40 @@
+{
+	"workbench.iconTheme": "catppuccin-frappe",
+	"workbench.colorTheme": "Catppuccin Frappé",
+	"window.dialogStyle": "custom",
+	"window.titleBarStyle": "custom",
+	"editor.fontFamily": "'JetBrainsMono Nerd Font'",
+	"workbench.tree.indent": 16,
+	"git.openRepositoryInParentFolders": "never",
+	"redhat.telemetry.enabled": false,
+	"java.configuration.runtimes": [
+		{
+			"name": "JavaSE-21",
+			"path": "/usr/lib/jvm/java-21-openjdk",
+			"default": true
+		},
+	],
+	"mesonbuild.downloadLanguageServer": true,
+	"editor.rulers": [80],
+	"editor.autoIndent": "advanced",
+	"python.createEnvironment.trigger": "off",
+	"prettier.useTabs": true,
+	"latex-workshop.latex.outDir": "%DIR%/latex",
+	"window.customMenuBarAltFocus": false,
+	"[cpp]": {
+		"editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+	},
+	"[dockercompose]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+		"editor.autoIndent": "advanced",
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+	"[github-actions-workflow]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+	"java.jdt.ls.vmargs": "",
+	"markdown.preview.scrollEditorWithPreview": false,
+	"markdown.preview.scrollPreviewWithEditor": false,
+	"markdown.preview.doubleClickToSwitchToEditor": false
+}

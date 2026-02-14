@@ -1,0 +1,41 @@
+{
+	/**
+	 * As of v0.14.0, there is a bug causing include
+	 * failures with wildcards.
+	 */
+	"include": [
+		// native
+		"modules/backlight.jsonc",
+		"modules/battery.jsonc",
+		"modules/clock.jsonc",
+		"modules/pulseaudio.jsonc",
+		"modules/bluetooth.jsonc",
+		"modules/network.jsonc",
+		// custom
+		"modules/custom/launcher.jsonc",
+		// hyprland
+		"modules/hyprland/window.jsonc",
+		"modules/hyprland/workspaces.jsonc"
+	],
+	
+	/* Options */
+    "layer": "top", 
+    "position": "top",
+    
+	/* Layout */
+    "modules-left": [ 
+        "custom/launcher", 
+        "hyprland/workspaces",
+        "hyprland/window"
+   ],
+    "modules-center": [ 
+        "clock"
+    ],
+    "modules-right": [
+        "backlight",
+        "pulseaudio",
+        "bluetooth",
+        "network",
+        "battery"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+	"hyprland/workspaces": {
+	    "active-only": false,
+	    "format": "{icon}",
+	    "format-icons": {
+	    	"1": "󰨞",
+	    	"2": "󰈹",
+	    	"3": "󰈙",
+	    	"4": "",
+	    	"5": "",
+	        "special": "",
+	        "default": "",
+	        "urgent": ""
+	    },
+	    "show-special": true,
+	    "persistent-workspaces": {
+	        "*": 5
+	    }
+	}
+}

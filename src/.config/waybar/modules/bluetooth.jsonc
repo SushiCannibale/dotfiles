@@ -1,0 +1,7 @@
+{
+	"bluetooth": {
+        "tooltip": false,
+        "format": " {status}",
+        "format-disabled": ""
+    }
+}

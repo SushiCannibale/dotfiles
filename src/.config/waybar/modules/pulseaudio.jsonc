@@ -1,0 +1,18 @@
+{
+	// TODO: open pavucontrol
+	"pulseaudio": {
+	    "tooltip": false,
+	    "format": "{icon} {volume}%",
+	    "format-muted": "󰖁 {volume}%",
+	    "format-bluetooth": "󰦢 {volume}%",
+	    "format-source": " {volume}%",
+	    "format-source-muted": "󰍭 {volume}%",
+	    "format-icons": {
+	        "headphone": "󰋋",
+	        "speaker": "󰓃",
+	        "phone": "",
+	        "default": ["󰖀", "󰕾"]
+	    },    
+	    "scroll-step": 1.0
+	}
+}
