@@ -27,7 +27,7 @@
     <li>Terminal: <a href="https://sw.kovidgoyal.net/kitty/">kitty + kitten</a></li>
     <li>Image viewer: <a href="https://archlinux.org/packages/extra/x86_64/imv/">imv</a></li>
     <li>File explorer: <a href="https://github.com/linuxmint/nemo">nemo</a></li>
-    <li>Fetch <a href="https://github.com/linuxmint/nemo">neofetch</a></li>
+    <li>Fetch <a href="https://github.com/alphatechnolog/cutefetch">cutefetch</a></li>
 </ul>
 
 ### Quality of life
@@ -69,3 +69,25 @@
 | SUPPR           | forward deletes a character              |
 | CTRL+SUPPR      | forward deletes a word                   |
 | CTRL+BACKSPACE  | backward deletes a word                  |
+
+## Installation (Arch)
+First, run `packages.sh` to download the packages.
+
+### Shell
+Change your default shell by ZSH with
+```sh
+chsh -s /usr/bin/zsh
+```
+> [!WARNING]
+> This **must not** be run in sudo!
+> You will change the shell of root otherwise.
+
+
+### Fixing
+There's high chance that everything didn't went as planned.
+In such case, some packages may help you fix your installation.
+
+#### [wev](https://github.com/jwrdegoede/wev)
+Wev helps you finding a key-code. You can then change the wanted key in your configuration(s).
+
+TODO: insert image
