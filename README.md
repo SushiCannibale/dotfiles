@@ -1,7 +1,3 @@
-> [!TIP]
-> If you want to save your configuration to github using
-> the `update.sh` script, don't forget to install `rsync`!
-
 <h1 align="center">
     <img src=".github/arch.png" width=64>
     <br>- Arch btw -</br>
@@ -11,6 +7,11 @@
 
 <img src=".github/wallpaper.png">
 <img src=".github/screenshot1.png">
+
+> [!TIP]
+> If you want to save your configuration to github using
+> the `update.sh` script, don't forget to install `rsync`!
+
 
 ## 🗃️ Overview 🗃️
 
