@@ -16,6 +16,7 @@
 ## 🗃️ Overview 🗃️
 
 <ul style="list-style-type:circle;">
+    <li>Display Manager<a href="https://github.com/sddm/sddm/">sddm</a></li>
     <li>Compositor: <a href="https://hyprland.org/">hyprland</a></li>
     <li>Dmenu: Fuzzel</li>
     <li>Packet manager: <a href="https://github.com/Morganamilo/paru">paru</a></li>
@@ -82,6 +83,11 @@ chsh -s /usr/bin/zsh
 > This **must not** be run in sudo!
 > You will change the shell of root otherwise.
 
+### Cursors
+Download the [Nordzy Cursors](https://github.com/guillaumeboehm/Nordzy-cursors) and 
+
+### Sddm
+Replace your `/etc/sddm.conf` with the one in `src/`
 
 ### Fixing
 There's high chance that everything didn't went as planned.

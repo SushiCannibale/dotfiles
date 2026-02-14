@@ -6,3 +6,4 @@ to="$1"
 
 rsync -rav "$HOME" "$to" --files-from="files.txt"
 rsync -rav "$HOME/.zshrc" "$to"
+rsync -rav "/etc/sddm.conf" "$to"

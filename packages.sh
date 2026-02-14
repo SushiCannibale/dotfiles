@@ -16,10 +16,12 @@ sudo pacman -S zsh # Shell
 sudo pacman -S waybar # Status bar
 sudo pacman -S starship # Prettier terminal
 sudo pacman -S fuzzel # Dmenu
+sudo pacman -S pavucontrol # Pulseaudio controller
+sudo pacman -S swww # sway wallpaper
 
 ### Editors ###
 sudo pacman -S codium # VSCode metrics-free
-sudo pacman -S micro
+sudo pacman -S micro # Lightweight modular editor <3
 
 ### Quality of life ###
 sudo pacman -S tldr # Command decription with examples
