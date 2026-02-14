@@ -7,11 +7,8 @@ DESTINATION="$(pwd)/src"
 function save {
 	[ -z "$1" ] && echo "Source not set!" && exit 1
 	src="$1"
-	echo "$src -> $DESTINATION/$src"
 	mkdir -p "$DESTINATION/$src"
 	rsync -lrv "$src" "$DESTINATION/$src" --filter=':- .gitignore'
-	# realsrc="$(realpath $src)"
-	# echo "$realsrc -> $realdst"
 }
 
 save ".config/btop"
