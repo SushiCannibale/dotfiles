@@ -88,6 +88,14 @@ Download the [Nordzy Cursors](https://github.com/guillaumeboehm/Nordzy-cursors) 
 
 ### Sddm
 Replace your `/etc/sddm.conf` with the one in `src/`
+and copy the `sddm-astronaut-theme` to `/usr/share/sddm/themes`
+
+### Fonts
+If you decide to change your fonts, you'll need to edit multiple files.
++ `$HOME/.config/waybar/style.css`
++ `$HOME/.config/hypr/hyprlock.conf`
++ `$HOME/.config/fuzzel/fuzzel.ini`
++ `$HOME/.config/dunst/dunstrc`
 
 ### Fixing
 There's high chance that everything didn't went as planned.
