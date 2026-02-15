@@ -96,6 +96,11 @@ If you decide to change your fonts, you'll need to edit multiple files.
 + `$HOME/.config/hypr/hyprlock.conf`
 + `$HOME/.config/fuzzel/fuzzel.ini`
 + `$HOME/.config/dunst/dunstrc`
++ `$HOME/.config/kitty/kitty.conf`
+
+> [!TIP]
+> For kitty, you can use `kitten choose-fonts`.
+> Be sure to have your font installed beforehand!
 
 ### Fixing
 There's high chance that everything didn't went as planned.
@@ -104,4 +109,4 @@ In such case, some packages may help you fix your installation.
 #### [wev](https://github.com/jwrdegoede/wev)
 Wev helps you finding a key-code. You can then change the wanted key in your configuration(s).
 
-TODO: insert image
+### ...
